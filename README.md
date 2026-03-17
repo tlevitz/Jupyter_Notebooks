@@ -5,8 +5,8 @@ _Note: Input .csv file(s) containing CTF information from CryoSPARC can be gener
 
 <img width="485" height="254" alt="CSV" src="https://github.com/user-attachments/assets/510dfe53-3f46-4702-be22-d0edbca790fa" />
 
-## Location vs CTF (SerialEM and EPU)
-Outputs scatterplots of physical locations of micrographs on atlas-level grid axes, colored by CTF.
+## Location vs CTF (or other micrograph statistics) 
+Outputs scatterplots of physical locations of micrographs on atlas-level grid axes, colored by CTF or other statistics from CryoSPARC.
 
 ### EPU_Locations_vs_CTF.ipynb
 
