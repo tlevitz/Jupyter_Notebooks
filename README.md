@@ -18,11 +18,16 @@ Outputs scatterplots of physical locations of micrographs on atlas-level grid ax
 <img width="475" height="367" alt="CTFvslocation_1" src="https://github.com/user-attachments/assets/09404803-d3fc-4c54-adbf-36c64cee754a" />
 <img width="479" height="362" alt="CTF_vs_location2" src="https://github.com/user-attachments/assets/db809090-0599-4d1d-b13a-0b23a655c5ab" />
 
-## Micrograph_CTFs.ipynb
-Produces CTF comparison plots from exported CryoSPARC information
+## CTF Histograms / Scatterplots
 
-<img width="726" height="205" alt="scatter_CTF" src="https://github.com/user-attachments/assets/7df6f99d-23d2-4ed4-952f-605746cd4bdc" />
-<img width="470" height="374" alt="hist_CTF" src="https://github.com/user-attachments/assets/3aad8e6f-fefc-45de-b4a6-94fdda19fbab" />
+### Micrograph_CTFs.ipynb
+Produces CTF comparison plots from exported CryoSPARC data. Can also be used to visualize other micrograph-level data (ice thickness, etc.)
+
+### Relion_CTFs.ipynb
+Produces CTF comparison plots from Relion data or Relion and CryoSPARC data
+
+<img width="432" height="288" alt="CTF_scatter_X_vs_Y" src="https://github.com/user-attachments/assets/02c3920b-2e5a-4f2c-8724-68506b611f98" />
+<img width="432" height="288" alt="CTF_hist_X_vs_Y" src="https://github.com/user-attachments/assets/8c351111-2d80-4e97-9be7-61b7210c7ac7" />
 
 ## maven_updated_clean.ipynb
 A notebook to only do MAVEn (subunit occupancy analysis) on a data set already being processed in CryoDRGN. Notebook is modified from the original version here: https://github.com/lkinman/MAVEn
