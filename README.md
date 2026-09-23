@@ -56,3 +56,5 @@ A notebook to only do MAVEn (subunit occupancy analysis) on a data set already b
 
 ## view_xml_with_annotations.ipynb
 Annotates a given .xml (or .dm) file with indices
+
+_These notebooks were generated with the assistance of GPT4DFCI, a private, HIPAA-secure endpoint to GPT-4o provided by DFCI_
