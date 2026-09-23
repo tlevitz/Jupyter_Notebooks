@@ -8,6 +8,12 @@ _Note: Input .csv file(s) containing CTF information from CryoSPARC can be gener
 ## Location vs CTF (or other micrograph statistics) 
 Outputs scatterplots of physical locations of micrographs on atlas-level grid axes, colored by CTF or other statistics from CryoSPARC.
 
+### EPU_Locations_vs_CryoSPARC_Live_Attributes.ipynb
+_Does not require downloaded .csv table but requires extra conda packages. Can be used for more attributes than EPU_Locations_vs_CTF such as astigmatism angle. Also has optional notation of AFIS clustering centers_
+
+<img width="436" height="388" alt="image" src="https://github.com/user-attachments/assets/19798ab8-d0a0-4a1d-bb28-c5dd2b9dd62c" />
+<img width="436" height="387" alt="image" src="https://github.com/user-attachments/assets/b15f8253-93f8-4cf7-9b06-e604783c57db" />
+
 ### EPU_Locations_vs_CTF.ipynb
 
 <img width="482" height="360" alt="image" src="https://github.com/user-attachments/assets/b0d09595-8d87-4c4d-a881-1425327b0516" />
