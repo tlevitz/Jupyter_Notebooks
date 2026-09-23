@@ -15,6 +15,7 @@ _Does not require downloaded .csv table but requires extra conda packages. Can b
 <img width="436" height="387" alt="image" src="https://github.com/user-attachments/assets/b15f8253-93f8-4cf7-9b06-e604783c57db" />
 
 ### EPU_Locations_vs_CTF.ipynb
+_Older notebook than the one above; requires fewer packages but needs the .csv to be downloaded. Still works fine for CTF fit and other attributes in the table. Does not have ability to delineate AFIS clustering centers._
 
 <img width="482" height="360" alt="image" src="https://github.com/user-attachments/assets/b0d09595-8d87-4c4d-a881-1425327b0516" />
 <img width="488" height="382" alt="image" src="https://github.com/user-attachments/assets/9a431c21-1928-471e-842a-d7fb3fd368ad" />
