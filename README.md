@@ -5,6 +5,21 @@ _Note: Input .csv file(s) containing CTF information from CryoSPARC can be gener
 
 <img width="485" height="254" alt="CSV" src="https://github.com/user-attachments/assets/510dfe53-3f46-4702-be22-d0edbca790fa" />
 
+## Jupyter Notebook Tips
+
+To make a new kernel containing conda packages from an established conda environment:
+```bash
+conda activate my_environment
+conda install -c conda-forge ipykernel
+python -m ipykernel install --user --name=my_environment
+```
+Once installed, you can choose the kernel when making a new notebook, or change the kernel in an established notebook and all packages available in the environment can be imported. 
+
+To install a package you don't have within the notebook itself:
+```bash
+!conda install -c conda-forge package_name -y
+```
+
 ## Location vs CTF (or other micrograph statistics) 
 Outputs scatterplots of physical locations of micrographs on atlas-level grid axes, colored by CTF or other statistics from CryoSPARC.
 
